@@ -1,5 +1,11 @@
 export default [
   {
+    name: '首页',
+    path: '/',
+    exact: true,
+    component: './Home',
+  },
+  {
     name: '综合',
     path: '/complex',
     routes: [

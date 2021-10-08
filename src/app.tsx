@@ -49,6 +49,7 @@ export const layout: RunTimeLayoutConfig = ({ initialState }) => {
     onPageChange: () => {
       // 如果没有登录，重定向到 login
     },
+    iconfontUrl: '//at.alicdn.com/t/font_1042130_b53syp9tb8.js',
     links: isDev
       ? [
           <Link to="/umi/plugin/openapi" target="_blank">

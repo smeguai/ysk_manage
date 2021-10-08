@@ -9,13 +9,17 @@ const awaitTime = (timer: number = 0) => {
 //  菜单
 export const menus = [
   {
+    name: '首页',
+    path: '/',
+  },
+  {
     key: '0',
     name: '综合',
-    icon: '',
+    icon: 'icon-all',
     children: [
       {
         name: '会员管理',
-        path: 'CA_customer/customer',
+        path: '/complex/member',
         key: '01',
       },
       {
